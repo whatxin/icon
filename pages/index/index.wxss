@@ -1,0 +1,58 @@
+swiper {
+  height: 320rpx;
+}
+
+swiper image {
+  width: 750rpx;
+  height: 320rpx;
+}
+
+/* 活动标题 */
+
+/* 有时文字默认上下高度不一样，给行高1 */
+
+.title {
+  font-size: 28rpx;
+  color: #3c3c3c;
+  font-weight: 500;
+  margin: 20rpx 30rpx;
+}
+.item {
+  margin-bottom: 68rpx;
+}
+navigator image {
+  height: 320rpx;
+  width: 750rpx;
+}
+
+.item .info {
+  position: relative;
+  padding: 16rpx 130rpx 20rpx 30rpx;
+  /* background-color: pink; */
+  height: 180rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.item .name {
+  font-size: 30rpx;
+  color: #3c3c3c;
+}
+
+.item .extra {
+  font-size: 22rpx;
+  color: #b4b4b4;
+  position: absolute;
+  bottom: 8rpx;
+}
+.item .extra text{
+  margin-right: 60rpx;
+}
+
+.item .status {
+  position: absolute;
+  right: 30rpx;
+  top: 16rpx;
+  font-size: 30rpx;
+  color: #FE6249;
+}
